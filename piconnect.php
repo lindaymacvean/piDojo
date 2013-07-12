@@ -1,5 +1,3 @@
-<html>
-<body>
 <?php
 // Create connection
 $piCon=mysqli_connect("localhost","Me3EcRuk","","picademy");
@@ -10,6 +8,3 @@ if (mysqli_connect_errno($piCon))
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
 ?>
-
-</body>
-</html>
