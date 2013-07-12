@@ -1,10 +1,15 @@
+<html>
+<body>
 <?php
 // Create connection
-$piCon=mysql_connect("localhost","peter","abc123","my_db");
+$piCon=mysqli_connect("localhost","Me3EcRuk","","picademy");
 
 // Check connection
-if (mysqli_connect_errno($con))
+if (mysqli_connect_errno($piCon))
   {
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
 ?>
+
+</body>
+</html>

@@ -1,9 +1,8 @@
 <?php 
 include('piconnect.php');
-include('header.php');
+include('pivars.php');
+include('views/header.php');
+include('views/main.php');
+include('views/footer.php'); 
+
 ?>
-
-this is some text
-
-
-<?php include('footer.php'); ?>
