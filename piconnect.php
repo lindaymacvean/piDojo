@@ -1,6 +1,6 @@
 <?php
 // Create connection
-$piCon=mysqli_connect("localhost","Me3EcRuk","","picademy");
+$piCon= new mysqli("localhost","Me3EcRuk","","picademy");
 
 // Check connection
 if (mysqli_connect_errno($piCon))

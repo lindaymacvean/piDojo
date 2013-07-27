@@ -41,12 +41,9 @@
 	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 <![endif]-->
 <div class="container-narrow">
-
       <div class="masthead">
         <h3 class="muted">piDojo</h3>
       </div>
-
-      <hr>
 
       <div class="jumbotron">
         <h1>Well Done</h1>
@@ -54,7 +51,7 @@
       </div>
       
       <div class="row-fluid">
-  		<div class="span2 offset2">
+  		<div class="span8 offset2">
 			<form class="form-horizontal">
 			  <div class="control-group">
 				<label class="control-label" for="piName" >Tell us your new Pi's cool name...</label>
