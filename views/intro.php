@@ -50,13 +50,20 @@
         <p><iframe width="640" height="360" src="//www.youtube.com/embed/LUjYQtDI_qI" frameborder="0" allowfullscreen></iframe></p>			
       </div>
       
+      
       <div class="row-fluid">
   		<div class="span8 offset2">
 			<form class="form-horizontal">
 			  <div class="control-group">
 				<label class="control-label" for="piName" >Tell us your new Pi's cool name...</label>
 				<div class="controls">
-				  <input type="text" id="piName" placeholder="All one word, no spaces. No strange symbols, just numbers and letters.">
+				  <input type="text" id="piName" placeholder="All one word, no spaces. No strange symbols, just numbers and letters." name="user">
+				</div>
+			  </div>
+			  <div class="control-group">
+				<label class="control-label" for="pid" >Tell us your new Pi's ID...</label>
+				<div class="controls">
+				  <input type="text" id="pid" placeholder="On the side of your Pi" name="pid">
 				</div>
 			  </div>
 			  <div class="control-group">

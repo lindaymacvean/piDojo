@@ -37,10 +37,9 @@
 	<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 <![endif]-->
 <div class="container">
-
-  <form class="form-signin">
-	<h2 class="form-signin-heading">Whats your piName</h2>
-	<input type="text" class="input-block-level" placeholder="">
+  <form class="form-signin" name="login" action="/" method="get">
+	<h2 class="form-signin-heading" >Whats your piName</h2>
+	<input type="text" class="input-block-level" placeholder="" name="piname">
 	<button class="btn btn-large btn-primary" type="submit">Enter</button>
   </form>
 

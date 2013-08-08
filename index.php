@@ -5,35 +5,35 @@ include('views/header.php');
 
 //first attempt to get the piName based on the $_GET["pid"] sent by user
 
-if($stmt = $piCon->prepare("SELECT pi_name FROM main WHERE piD=?")) {
+//if($stmt = $piCon->prepare("SELECT pi_name FROM main WHERE piD=?")) {
 
-	/* bind parameters for markers */
-	$stmt->bind_param($_GET['pid']);
+//	/* bind parameters for markers */
+//	$stmt->bind_param($_GET['pid']);
 	
-	/* execute query */
-	$stmt->execute();
+//	/* execute query */
+//	$stmt->execute();
 	
-	/* bind result variables */
-	$stmt->bind_result($piName);
+//	/* bind result variables */
+//	$stmt->bind_result($piName);
 	
-	/* find number of registered Pis */
-	$registered = $stmt->num_rows;
+//	/* find number of registered Pis */
+//	$registered = $stmt->num_rows;
 	
-	printf("Result set has %d rows.\n", $registered);
+//	printf("Result set has %d rows.\n", $registered);
 	
-	/* fetch value */
-	$stmt->fetch();
+//	/* fetch value */
+//	$stmt->fetch();
 	
-	/* close statement */
-	$stmt->close();
+//	/* close statement */
+//	$stmt->close();
 
-}
+//}*/
 
-if($piName && $registered == 1) {
+if($_GET["pid"]) {
 	$piD = $_GET["pid"];
 	include('views/main.php'); 
 } 
-elseif (false ) {
+elseif (true ) {
 	include('views/intro.php');
 }
 else {

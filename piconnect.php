@@ -1,10 +1,12 @@
 <?php
-// Create connection
-$piCon= new mysqli("localhost","Me3EcRuk","","picademy");
 
-// Check connection
-if (mysqli_connect_errno($piCon))
-  {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  }
+try {
+   // Create connection
+	$username="Me3EcRuk";
+	$password="";
+	$piCon = new PDO('mysql:host=localhost;dbname=picademy', $username, $password);
+    $piCon->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch(PDOException $e) {
+    echo 'ERROR: ' . $e->getMessage();
+}
 ?>

@@ -45,33 +45,7 @@
       	<div class="row-fluid">
 			<div class="span9">
 				<div class="hero-unit">
-					<div class="container">
-						<p><iframe width="640" height="360" src="//www.youtube.com/embed/LUjYQtDI_qI" frameborder="0" allowfullscreen></iframe></p>
-						
-						<form class="form-horizontal">
-						  <div class="control-group">
-							<label class="control-label" for="piName" >Tell us your new Pi's cool name...</label>
-							<div class="controls">
-							  <input type="text" id="piName" placeholder="All one word, no spaces. No strange symbols, just numbers and letters.">
-							</div>
-						  </div>
-						  <div class="control-group">
-							<label class="control-label" for="location">Where is your CoderDojo?</label>
-							<div class="controls">
-								<select class="input-large" id="location" >
-									<option>Cork</option>
-									<option>Belfast</option>
-									<option>Science Gallery</option>
-								</select>
-							</div>
-						  </div>
-						  <div class="control-group">
-							<div class="controls">
-							  <button type="submit" class="btn btn-large btn-primary">Launch my Pi</button>
-							</div>
-						  </div>
-						</form>
-					</div> <!--/container-->
+					
 				</div><!--/hero-unit-->
 			</div><!--/span-->
       
